@@ -1,0 +1,46 @@
+name: absensi_app
+description: Aplikasi Absensi Guru dengan QR Code
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # 🔥 STATE MANAGEMENT
+  provider: ^6.1.2
+
+  # 🔥 QR SCANNER (support web)
+  mobile_scanner: ^5.0.0
+
+  # 🔥 FIREBASE
+  firebase_core: ^2.30.0
+  cloud_firestore: ^4.17.5
+
+  # ✅ Format tanggal bahasa Indonesia
+  intl: ^0.19.0
+
+  # ✅ Export Excel & PDF
+  pdf: ^3.10.8
+  printing: ^5.12.0
+  excel: ^4.0.6
+  path_provider: ^2.1.2
+
+  # ✅ TAMBAH INI — untuk download file di Flutter Web
+  universal_html: ^2.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
